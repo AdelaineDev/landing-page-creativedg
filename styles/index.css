@@ -1,0 +1,92 @@
+ body{
+    background-color: rgb(12, 12, 12);
+    color: rgb(235, 229, 221);
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+
+}
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+li{
+    display: inline-block;
+    margin: 15px;
+}
+h1{
+    font-weight: 50;
+    font-family: 'Nunito', sans-serif;
+    font-size: 35px;
+}
+main{
+    display: flex;
+    flex-direction: row wrap;
+ padding-bottom: 80px;  
+}
+img{
+    max-width: 700px;
+}
+h2{
+    font-weight: 200;
+    line-height: 15px;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+span{
+    color:rgba(34, 55, 164, 0.845)
+}
+p{
+    line-height: 20px;
+  
+  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+img{
+    max-width: 650px;
+}
+
+
+a{
+    color: rgb(255, 255, 255);
+    font-family: 'Nunito', sans-serif;
+
+}
+
+a:hover{
+    color:rgb(35, 59, 177);
+    transition: 0.4ms;
+
+}
+#btn
+{border: 3px solid rgba(34, 55, 164, 0.845);
+padding: 10px;
+border-radius: 20px;
+}
+
+footer h2{
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+}
+footer p{
+  font-size: 8px;
+  text-align: center;
+}
+.redes{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.redes img{
+    padding-left: 8px;
+
+}
+
+
